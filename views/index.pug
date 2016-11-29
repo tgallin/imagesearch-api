@@ -1,0 +1,16 @@
+doctype html
+html(lang='en')
+  head
+    title= title
+    link(rel='stylesheet' href='/css/bootstrap.min.css')
+  body
+    div(class='container')
+      h1(class='header')= message
+      blockquote User stories:
+        li I can get the image URLs, alt text and page urls for a set of images relating to a given search string.
+        li I can paginate through the responses by adding a ?offset=2 parameter to the URL.
+        li I can get a list of the most recently submitted search strings.
+      h3 Example to search for images:
+      code https://imagesearch-tgallin.herokuapp.com/search/free%20code%20camp
+      h3 Example to browse recent search queries:
+      code https://imagesearch-tgallin.herokuapp.com/latest
