@@ -11,7 +11,7 @@ User stories:
 Example usage:
 
 search for images
-https://cryptic-ridge-9197.herokuapp.com/api/imagesearch/lolcats%20funny?offset=10 
+https://imagesearch-tgallin.herokuapp.com/search/free%20code%20camp?offset=10
 
 browse recent search queries
-https://cryptic-ridge-9197.herokuapp.com/api/latest/imagesearch/
+https://imagesearch-tgallin.herokuapp.com/latest
